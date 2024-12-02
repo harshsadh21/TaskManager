@@ -82,9 +82,10 @@ const AddNotes = () => {
                       value={note.priority}
                       onChange={onChange}
                     >
-                      <option value="High">High</option>
-                      <option value="Medium">Medium</option>
-                      <option value="Low">Low</option>
+                      {/* <option value=""></option> */}
+                      <option>High</option>
+                      <option>Medium</option>
+                      <option>Low</option>
                     </select>
                     {/* <input
                       type="Dropdown"

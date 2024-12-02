@@ -26,6 +26,7 @@ const noteSchema = mongoose.Schema({
     type: String,
     enum: ["High", "Medium", "Low"],
     required: true,
+    // default: "High",
   },
   status: {
     type: String,
